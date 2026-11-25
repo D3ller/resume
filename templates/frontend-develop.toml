@@ -1,0 +1,21 @@
+[details]
+name = "Your Name"
+job = "Développeur Full-Stack TypeScript (Vue / Node.js)"
+description = "Développeur full-stack TypeScript, je conçois et développe des applications SaaS B2B de bout en bout. Je travaille principalement sur la stack Nuxt 4 / Vue 3 côté front et AdonisJS V7 / Node.JS coté back, avec une appétence forte pour l'architecture, la sécurité et la fiabilité du code (tests automatisés, CI/CD, monitoring)."
+
+[contact]
+number = "+33730498423"
+email_adress = "youremailadress@proton.me"
+city = "Paris, France"
+
+[link]
+github = "github.com/*****"
+portfolio = "******.fr"
+
+[experience]
+professionnal = [
+    { company_name = "", short_description = "", from = "", to = "", location = "" }
+]
+school = [
+    { name = "dd", formation = "", start = 0, end = 0 },
+]

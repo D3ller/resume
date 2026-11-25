@@ -1,10 +1,13 @@
+#let details = toml("templates/frontend-develop.toml")
+
 #set page(
   paper: "a4",
+  margin: (x: 1cm,  y: 1cm)
 )
 
 #set text(
   font: "Geist",
-  size: 12pt
+  size: 12pt,
 )
 
 #show heading: set text(
@@ -15,8 +18,6 @@
   This text is in the
   first column.
   #colbreak()
-  = Corentin NELHOMME
-
-  #lorem(200)
+  = #details.details.name
+  #details.details.job
 ]
-
